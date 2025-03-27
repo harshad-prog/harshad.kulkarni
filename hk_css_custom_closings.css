@@ -1,0 +1,23 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+  /******** root colors - sets defaults for everything else that are overrideable ********/
+  --root-black-color: #222;
+  --root-white-color: #fff;
+  --root-background: var(--root-white-color);
+  --root-text-color: var(--root-black-color);
+  --root-brand-color: #6002ee;
+  --root-brand-color-10: #b794f6;
+  --root-brand-color-20: #efe5fd;
+  --root-green-color: #2ed27c;
+  --root-green-color-10: rgba(46, 210, 124, 0.4);
+  --root-error-color: #e55252;
+  --root-link-color: #0185a2;
+  --root-link-hover-color: #00a298;
+
+  /******** root typography ********/
+  --root-font-family: 'Inter', sans-serif;
+  --root-font-weight: 300;
+  /* --root-title-display: none; // this is if we only wanted page titles to show */
+}

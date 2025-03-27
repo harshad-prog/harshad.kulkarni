@@ -71,13 +71,13 @@ For a complete list of supported variables and classes, see the white labeling d
   /* --field-label-color: <color-value>; */
 
   /******** field inputs ********/
-  --field-input-background-color: transparent;
-  --field-input-border: none;
-  --field-input-border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  --field-input-background-color: #FFFFFF;
+  --field-input-border: 1px solid rgba (196,196,196,1);
+  /* --field-input-border-bottom: 2px solid rgba(0, 0, 0, 0.1); */
   --field-input-focus-box-shadow: none;
   --field-input-padding-x: 0;
-  /* --field-input-hover-border-color: <color value>; */
-  /* --field-input-focus-border-color: <color value>; *
+ --field-input-hover-border-color: #656B6B;
+  --field-input-focus-border-color: #285DA3;
   /* padding-y is not supported right now - use selectors to target elements you want for padding top/bottom */
 
   /******** dropdown ********/

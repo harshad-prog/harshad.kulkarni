@@ -24,7 +24,7 @@ For a complete list of supported variables and classes, see the white labeling d
 
   /******** root typography ********/
   --root-font-family: "Inter var", "Open Sans", "Helvetica Neue", helvetica, arial, sans-serif; /* Harshad_kulkarni_font */
-  --root-font-weight: 300;
+  --root-font-weight: 400;
   /* --root-title-display: none; */
 
   /******** backgrounds ********/
@@ -206,4 +206,26 @@ For a complete list of supported variables and classes, see the white labeling d
 .anvil-list-input-item .anvil-field-label {
   font-size: 14px;
   font-style: italic;
+}
+
+body {
+  -webkit-font-smoothing: subpixel-antialiased;
+  -webkit-text-size-adjust: none;
+  background-color: #fff;
+  color: #1c2222;
+  counter-reset: step-counter;
+  font-family: var(--root-font-family);
+  font-size: 14px;
+  min-height: 100vh;
+  text-rendering: optimizeLegibility;
+}
+
+:root {
+  --font-h1-size: 2.25rem;
+  --font-h2-size: 1.875rem;
+  --font-h3-size: 1.5rem;
+  --font-h4-size: 1.25rem;
+  --font-h5-size: 1.125rem;
+  --font-h6-size: 1rem;
+  --font-p-size: 1rem;
 }

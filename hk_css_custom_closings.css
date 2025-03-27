@@ -47,9 +47,9 @@ For a complete list of supported variables and classes, see the white labeling d
   /******** button ********/
   --button-border-radius: 8px;
   --button-background: #303235; /* Harshad_kulkarni_Carta primary button color */
-  --button-color: #303235; /* Harshad_kulkarni_Carta primary button color */
+  --button-color: #EBECEC; /* Harshad_kulkarni_Carta primary button color */
   --button-disabled-background: #DEDFDF; /* Harshad_kulkarni_Carta button-disabled-background color */
-  --button-disabled-color: #DEDFDF;
+  --button-disabled-color: #A7AAAA;
   --button-hover-color: #394040;
   --button-hover-background: #394040;
   --button-focus-color: #8BABD6;

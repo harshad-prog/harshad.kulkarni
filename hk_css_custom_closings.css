@@ -1,34 +1,28 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
-
-:root {
-  --root-black-color: #222;
-  --root-white-color: #fff;
-  --root-background: var(--root-white-color);
-  --root-text-color: var(--root-black-color);
-  --root-brand-color: #6002ee;
-  --root-brand-color-10: #b794f6;
-  --root-brand-color-20: #efe5fd;
-  --root-green-color: #2ed27c;
-  --root-green-color-10: rgba(46, 210, 124, 0.4);
-  --root-error-color: #e55252;
-  --root-link-color: #0185a2;
-  --root-link-hover-color: #00a298;
-  --root-disabled-color: #aaa;
-
-  --root-font-family: 'Inter', sans-serif;
-  --root-font-weight: 300;
-}
-
-/* Enforce Inter globally */
+/* Force Inter globally */
 body, input, select, textarea, button {
   font-family: 'Inter', sans-serif !important;
 }
 
-/* Form styling */
-.anvil-root,
+/* Make form background white and add red border */
 .anvil-webform,
 .anvil-field {
-  background-color: #ffffff !important;
+  background-color: #fff !important;
   border: 1px solid red !important;
+}
+
+/* Specific fix for checkboxes */
+.anvil-checkbox input[type="checkbox"] {
+  accent-color: red; /* for modern browsers */
+  border: 2px solid red !important;
+  background-color: #fff !important;
+  width: 18px;
+  height: 18px;
+}
+
+/* Optional: Fix text blocks if they're unstyled */
+.anvil-markdown {
+  font-family: 'Inter', sans-serif !important;
+  font-size: 14px;
+  color: #222;
+  line-height: 1.5;
 }

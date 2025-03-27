@@ -61,24 +61,28 @@ For a complete list of supported variables and classes, see the white labeling d
   /* --circle-icon-color: <color-value; */
   /* --circle-icon-button-background: <color-value>; */
 
-  /******** fields ********/
-  --field-label-font-weight: 300;
+   /******** fields ********/
+  --field-label-font-weight: 500;
+  --field-label-font-size: 14px;
   --field-error-box-shadow: none;
   --field-error-background: transparent;
 
   /* --field-error-label-background: transparent; */
-  /* --field-error-text-color: <color-value>; */
+  --field-error-text-color: var(root-error-color);
+  --field-error-border-color: 1px solid var(root-error-color);
   /* --field-label-color: <color-value>; */
 
   /******** field inputs ********/
-  --field-input-background-color: #FFFFFF;
-  --field-input-border: 1px solid rgba (196,196,196,1.0);
-  /* --field-input-border-bottom: 2px solid rgba(0, 0, 0, 0.1); */
+  --field-input-background-color: transparent;
+  --field-input-border: 1px solid var(--root-grey-color);
+  --field-input-border-radius: 4px;
   --field-input-focus-box-shadow: none;
-  --field-input-padding-x: 0;
- --field-input-hover-border-color: #656B6B;
-  --field-input-focus-border-color: #285DA3;
+  --field-input-padding-x: 10px;
+  --field-input-padding-y: 10px;
+  /* --field-input-hover-border-color: <color value>; */
+  /* --field-input-focus-border-color: <color value>; *
   /* padding-y is not supported right now - use selectors to target elements you want for padding top/bottom */
+
 
   /******** dropdown ********/
   --dropdown-menu-font-weight: 300;

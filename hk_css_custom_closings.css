@@ -1,28 +1,49 @@
-/* Force Inter globally */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+:root {
+  --root-black-color: #222;
+  --root-grey-color: #cccccc87;
+  --root-grey-2-color: #c4c4c4;
+  --root-gray-80-color: #394040;
+  --root-gray-100-color: #1c2222;
+  --root-white-color: #fff;
+  --root-light-white-color: rgb(235, 236, 236);
+  --root-light-black-color: rgb(35, 43, 43);
+  --root-background: var(--root-white-color);
+  --root-text-color: var(--root-black-color);
+  --root-brand-color: var(--root-black-color);
+  --root-brand-color-20: var(--root-gray-80-color);
+  --root-brand-color-10: var(--root-gray-100-color);
+  --root-error-color: #e55252;
+  --root-link-color: #0185a2;
+  --root-link-hover-color: #00a298;
+  --root-font-family: "Inter", sans-serif;
+  --root-font-weight: 400;
+
+  --webform-background: white;
+  --esign-background: white;
+}
+
+/* Apply Inter to all major elements */
 body, input, select, textarea, button {
   font-family: 'Inter', sans-serif !important;
 }
 
-/* Make form background white and add red border */
-.anvil-webform,
-.anvil-field {
+/* Force form sections to white background with red border */
+.forge-page.anvil-webform-page > * {
   background-color: #fff !important;
-  border: 1px solid red !important;
+  border: 1px solid #e55252 !important;
+  border-radius: 4px;
+  padding: 32px;
 }
 
-/* Specific fix for checkboxes */
-.anvil-checkbox input[type="checkbox"] {
-  accent-color: red; /* for modern browsers */
-  border: 2px solid red !important;
+/* Checkbox customization */
+.ant-checkbox-inner {
+  border: 1px solid #e55252 !important;
   background-color: #fff !important;
-  width: 18px;
-  height: 18px;
 }
 
-/* Optional: Fix text blocks if they're unstyled */
-.anvil-markdown {
-  font-family: 'Inter', sans-serif !important;
-  font-size: 14px;
-  color: #222;
-  line-height: 1.5;
+.ant-checkbox-checked .ant-checkbox-inner:after {
+  border-color: #e55252 !important;
 }

@@ -72,7 +72,7 @@ For a complete list of supported variables and classes, see the white labeling d
 
   /******** field inputs ********/
   --field-input-background-color: #FFFFFF;
-  --field-input-border: 1px solid rgba (196,196,196,1);
+  --field-input-border: 1px solid rgba (196,196,196,1.0);
   /* --field-input-border-bottom: 2px solid rgba(0, 0, 0, 0.1); */
   --field-input-focus-box-shadow: none;
   --field-input-padding-x: 0;

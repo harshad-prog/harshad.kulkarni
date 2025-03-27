@@ -13,7 +13,7 @@ For a complete list of supported variables and classes, see the white labeling d
   --root-white-color: #fff;
   --root-background: var(--root-white-color);
   --root-text-color: var(--root-black-color);
-  --root-brand-color: #303235; /* Harshad_kulkarni_Carta primary button color */
+  --root-brand-color: var(--root-black-color);
   --root-brand-color-10: #b794f6;
   --root-brand-color-20: #efe5fd;
   --root-green-color: #2ed27c;
@@ -46,15 +46,14 @@ For a complete list of supported variables and classes, see the white labeling d
 
   /******** button ********/
   --button-border-radius: 8px;
+  --button-background: #303235; /* Harshad_kulkarni_Carta primary button color */
+  --button-color: #303235; /* Harshad_kulkarni_Carta primary button color */
   --button-disabled-background: #DEDFDF; /* Harshad_kulkarni_Carta button-disabled-background color */
-  --button-disabled-color: #d9d9d9;
-
+  --button-disabled-color: #DEDFDF;
+  --button-hover-color: #394040;
+  --button-hover-background: #394040;
+  --button-focus-color: #8BABD6;
   /* --button-disabled-icon-color: <color-value>; */
-  /* --button-background: <color value>; */
-  /* --button-color: <color-value>; */
-  /* --button-hover-color: <color-value>; */
-  /* --button-hover-background: <color-value>; */
-  /* --button-focus-color: <color-value>; */
   /* --button-focus-background: <color-value>; */
 
   /******** circle icons ********/

@@ -13,7 +13,7 @@ For a complete list of supported variables and classes, see the white labeling d
   --root-white-color: #fff;
   --root-background: var(--root-white-color);
   --root-text-color: var(--root-black-color);
-  --root-brand-color: red;
+  --root-brand-color: #303235; /* Harshad_kulkarni_Carta primary button color */
   --root-brand-color-10: #b794f6;
   --root-brand-color-20: #efe5fd;
   --root-green-color: #2ed27c;
@@ -23,7 +23,7 @@ For a complete list of supported variables and classes, see the white labeling d
   --root-link-hover-color: #00a298;
 
   /******** root typography ********/
-  --root-font-family: "Roboto", sans-serif;
+  --root-font-family: "Inter var", "Open Sans", "Helvetica Neue", helvetica, arial, sans-serif; /* Harshad_kulkarni_font */
   --root-font-weight: 300;
   /* --root-title-display: none; */
 
@@ -46,7 +46,7 @@ For a complete list of supported variables and classes, see the white labeling d
 
   /******** button ********/
   --button-border-radius: 8px;
-  --button-disabled-background: #f5f5f5;
+  --button-disabled-background: #DEDFDF; /* Harshad_kulkarni_Carta button-disabled-background color */
   --button-disabled-color: #d9d9d9;
 
   /* --button-disabled-icon-color: <color-value>; */

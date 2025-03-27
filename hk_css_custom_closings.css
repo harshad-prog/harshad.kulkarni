@@ -41,7 +41,7 @@ For a complete list of supported variables and classes, see the white labeling d
 
   /* --webform-title-color: <color-value>; */
   /* --webform-page-title-underline-color: <color value>; */
-  /* --webform-page-title-underline-display: none; */
+  --webform-page-title-underline-display: none;
   /* --webform-page-title-color: <color-value>; */
 
   /******** button ********/

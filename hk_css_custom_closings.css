@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
 :root {
@@ -14,9 +15,20 @@
   --root-link-color: #0185a2;
   --root-link-hover-color: #00a298;
   --root-disabled-color: #aaa;
+
   --root-font-family: 'Inter', sans-serif;
   --root-font-weight: 300;
 }
-.anvil-root {
+
+/* Enforce Inter globally */
+body, input, select, textarea, button {
   font-family: 'Inter', sans-serif !important;
+}
+
+/* Form styling */
+.anvil-root,
+.anvil-webform,
+.anvil-field {
+  background-color: #ffffff !important;
+  border: 1px solid red !important;
 }
